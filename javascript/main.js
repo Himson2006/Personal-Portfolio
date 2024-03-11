@@ -5,7 +5,7 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = ()=>{
-    menuIcon.classList.toggle('fa-x')
+    menuIcon.classList.toggle('fa-xmark')
     navbar.classList.toggle('active')
 }
 
@@ -38,7 +38,7 @@ window.onscroll = ()=>{
 
     /* Remove toggle icon and navbar */
 
-    menuIcon.classList.remove('fa-x');
+    menuIcon.classList.remove('fa-xmark');
     navbar.classList.remove('active');
 
 };
