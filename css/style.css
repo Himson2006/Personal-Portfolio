@@ -337,13 +337,12 @@ span{
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: var(--text-color);
     border-radius: 50%;
 }
 
 .portfolio-layer a i{
     font-size: 2rem;
-    color: var(--snd-bf-color);
+    color: var(--text-color);
 }
 
 .contact h2{
